@@ -10,6 +10,10 @@ public class Rabbit4 {
     public Rabbit4(Duck5 duck5) {
         this.duck5 = duck5;
     }
+    @Autowired
+    public void setDuck5(Duck5 duck5) {
+        this.duck5 = duck5;
+    }
 
     @Override
     public String toString() {

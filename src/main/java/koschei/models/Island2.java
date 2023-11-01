@@ -11,6 +11,12 @@ public class Island2 {
     public Island2(Wood3 wood) {
         this.wood = wood;
     }
+    @Autowired
+    public void setWood(Wood3 wood) {
+        this.wood = wood;
+    }
+
+
 
     @Override
     public String toString() {
